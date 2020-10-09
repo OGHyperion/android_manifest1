@@ -31,6 +31,7 @@ Follow these to build.
 source build/envsetup.sh
 lunch aosip_device-userdebug
 time m kronic
+(or to get build logs: time m kronic | tee build.log)
 
 If you are building for a OnePlus device that supports Verizon, before lunching device enter:
 repopick -t op-vzw-mani
